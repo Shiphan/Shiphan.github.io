@@ -1,0 +1,21 @@
+body {
+	background-color: gray;
+}
+.banner {
+	width: 100%;
+}
+.banner_text {
+	text-align: center;
+	width: 100%;
+	font-size:60px;
+}
+.banner_img>img {
+	max-width: 100%;
+}
+.banner_img {
+	height: 20%;
+	max-width: 100%;
+	object-fit: cover;
+	overflow: hidden;
+}
+

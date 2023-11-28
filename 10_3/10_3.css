@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: lightgray;
+	font-family: 'Roboto','Noto Sans TC', sans-serif;
+	font-size: 60px;
+	padding-top: 2.5%px;
+	font-weight: 500;
+}
+.box {
+	background-color: #EFBC24;
+	border-radius: 25px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content {
+	width: 60vw;
+	height: 20vw;
+}
+.photo {
+	float: left;
+	height: 100%;
+	width: 60%;
+	background-color: aqua;
+}
+.photo img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.intext {
+	float:right;
+	height: 100%;
+	width: 40%;
+	background-color: lightcoral;
+}
+.com {
+	ont-size: 55%;
+}
+h2 {
+	font-size: 180%;
+	font-weight: 600;
+	line-height: 0;
+}
