@@ -1,0 +1,14 @@
+.container {
+    background-color: hsl(0, 0, 10%);
+}
+
+#page1 {
+    height: 100vh;
+}
+
+#sitetitle {
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 5em;
+    font-weight: 800;
+    padding: 60px;
+}
