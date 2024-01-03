@@ -2,13 +2,12 @@
     background-color: hsl(0, 0, 10%);
 }
 
-#page1 {
-    height: 100vh;
+
+body {
+    font-family: Consolas, 'Courier New', monospace;
 }
 
-#sitetitle {
-    font-family: Consolas, 'Courier New', monospace;
-    font-size: 5em;
-    font-weight: 800;
-    padding: 60px;
+.iframe {
+    width: 100%;
+    height: 60vh;
 }

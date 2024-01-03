@@ -1,25 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html data-bs-theme="dark">
 	<head>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 		<link href="style.css" rel="stylesheet">
 	</head>
-	<body>
-		<div class="container bg-dark">
-			<div class="container" id="page1">
-				<nav class="navbar navbar-expand-lg bg-dark">
+	<body class="d-flex flex-column h-100">
+		
+		<div id="page-1" class="cover-container d-flex w-100 vh-100 p-3 mx-auto flex-column bg-body-tertiary">
+			<div class="my-auto">
 
-				</nav>
-				<div id="sitetitle" class="text-light">
+			</div>
+			<span class="px-4 fw-bold col-12 col-md-8">
+				<h1>
 					Website Design<br>
 					and Appreciation
+				</h1>
+			</span>
+			<span class="col-12 col-md-2">
+				
+			</span>
+			<div class="my-auto">
+				<a href="#page-2">
+					<div class="m-auto" style="height: 4em; width: 4em; border-radius: 100%; background-color: white;"></div>
+				</a>
+			</div>
+		</div>
+		<div id="page-2" class="vh-100 p-4 row">
+			<div class="col-8">
+				<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="scrollspy-example-2" tabindex="0">
+				  	<h4 id="item-1">
+						09/19
+					</h4>
+				  	<iframe class="iframe" src="https://shiphan.github.io/9_19">
+
+					</iframe>
+					<h4 id="item-2">
+						item-2
+					</h4>
+				  	<p>
+						The content of item 1 should go here.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+					</p>
+					<h4 id="item-3">
+						item-3
+					</h4>
+				  	<p>
+						The content of item 1 should go here.
+					</p>
+					<h4 id="item-4">
+						item-4
+					</h4>
+				  	<p>
+						The content of item 1 should go here.
+					</p>
 				</div>
 			</div>
-			<h2>This is Shiphan's page.</h2>
-			<h4>Let's see if it works.</h4>
-			<a href="https://shiphan.github.io/11_14/index.html"><p>11/14</p></a>
+			<div class="col-4">
+			  	<nav id="navbar" class="nav nav-pills navbar bg-body-tertiary flex-column align-items-stretch p-3">
+					<a class="nav-link" href="#item-1">Item 1</a>
+				  	<a class="nav-link" href="#item-2">Item 2</a>
+				  	<a class="nav-link" href="#item-3">Item 3</a>
+			  	</nav>
+			</div>
 		</div>
-
+		<footer class="footer mt-auto py-3 bg-body-tertiary">
+			<div class="container">
+			  	<span class="text-body-secondary">
+					Made with ❤ by Shiphan.
+				</span>
+			</div>
+		</footer>
 	</body>
 </html>
